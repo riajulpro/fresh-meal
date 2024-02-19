@@ -1,7 +1,11 @@
+import Banner from "@/components/Banner";
+import MealCategory from "@/components/MealCategory";
+
 const Home = () => {
   return (
     <main>
-      <h1>Welcome home</h1>
+      <Banner />
+      <MealCategory />
     </main>
   );
 };
